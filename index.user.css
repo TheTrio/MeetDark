@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Meet Dark
 @namespace   github.com/openstyles/stylus
-@version     0.1.3
+@version     0.1.4
 @homepageURL https://github.com/TheTrio/MeetDark
 @updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
 @author      Shashwat
@@ -269,5 +269,10 @@
     .VfPpkd-XPtOyb-FCjw3e .VfPpkd-XPtOyb-OWXEXe-dgl2Hf {
         /*check your audio and video border color*/
         border-color: var(--button-not-focus-color);
+    }
+
+    /* meet chat box*/
+    .XnKlKd .tL9Q4c {
+        color: var(--light-color);
     }
 }
