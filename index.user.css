@@ -1,22 +1,29 @@
 /* ==UserStyle==
 @name        Meet Dark
 @namespace   github.com/openstyles/stylus
-@version     0.1.4
+@version     0.1.5
 @homepageURL https://github.com/TheTrio/MeetDark
 @updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
 @author      Shashwat
 @license MIT
+@var color light-color "Light color" #d3d3d3
+@var color dark-color "Dark color" #181818
+@var color button-color "Secondary color" #00afb9
+@var color dark-light-color "Dark Light color" #212121
+@var color button-not-focus-color "Secondary not focus color" #00b5bf
+@var color text-color "Text color" #219ebc
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://meet.google.com/")
 {
     :root {
-        --light-color: #d3d3d3;
+       /* --light-color: #d3d3d3;
         --dark-color: #181818;
         --button-color: #00afb9;
         --dark-light-color: #212121;
         --button-not-focus-color: #00b5bf;
         --text-color: #219ebc;
+        */
     }
 
     .mKBhCf {
