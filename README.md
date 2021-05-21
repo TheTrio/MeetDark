@@ -14,4 +14,4 @@ An easy on the eyes dark theme for Google Meet
 
 ## Customizibility 
 
-You can customize the theme by clicking on the extension icon, and then on the settings icon next to the theme "Meet Dark".
+You can customize the theme by clicking on the extension icon, and then on the settings icon next to the theme "Meet Dark". You can see what others users have done with our theme [here](https://github.com/TheTrio/MeetDark/blob/main/CommunityThemes/Themes.md)
