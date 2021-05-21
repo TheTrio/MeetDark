@@ -1,21 +1,23 @@
 /* ==UserStyle==
-@name        Batman Meet Dark
+@name        MeetDark: Darkness
 @namespace   github.com/openstyles/stylus
-@version     0.1.0
+@version     0.1.2
 @homepageURL https://github.com/TheTrio/MeetDark
-@updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
+@updateURL   https://github.com/TheTrio/MeetDark/raw/main/CommunityThemes/Batman.user.css
 @author      Shashwat
 @license MIT
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://meet.google.com/")
 {
+     /*        MeetDark: Darkness    
+                                 ~Tushar*/
     :root {
-        --light-color: #0be2bc;
-        --dark-color: #000;
-        --button-color: #c4a708eb;
-        --dark-light-color: #000;
-        --button-not-focus-color: #ffd700;
+        --light-color: #fff;
+        --dark-color: #040404;
+        --button-color: #c40808eb;
+        --dark-light-color: #1a1818;
+        --button-not-focus-color: #c40808eb;
         --text-color: #54abc2;
     }
 
@@ -52,6 +54,7 @@
     .oIy2qc {
         /* message color*/
         color: var(--light-color);
+        
     }
 
     .c0XF8e.kaAt2:not(.KKjvXb),
@@ -118,8 +121,8 @@
         background-size: 360px;
         position: relative;
     }
-    .vvTMTb::before {
-        background-image: url('https://image.winudf.com/v2/image1/Y29tLm1vYmlsZXVuaXZlcnNpdHkuYmxhY2tfc2NyZWVuXzFfMTU1ODk5NTY3NV8wMzg/screen-1.jpg?fakeurl=1&type=.jpg');
+    .vvTMTb::before{
+        background-image:url('https://wallpaperaccess.com/full/757133.jpg');
         opacity: 0.5;
         content: ' ';
         display: block;
@@ -133,14 +136,15 @@
         background-position: 50% 0;
         background-size: cover;
     }
-
-    .z38b6 {
-        position: relative;
+    
+    .z38b6{
+        position:relative;
     }
 
     .Cs0vCd.RDPZE .e3AdI {
         /*message box send colors*/
         color: var(--button-color);
+        
     }
 
     .OCZA0d,
@@ -270,7 +274,7 @@
     }
     .xKiqt.cd29Sd .Fxmcue {
         background: var(--button-not-focus-color);
-        color: white;
+        color: #fff;
     }
     .CpPRrf,
     .mWzGw {
@@ -279,7 +283,7 @@
     }
 
     .vWXIE {
-        background: #03033a;
+        background: #2e2e2f;
     }
 
     .KshDhe {
