@@ -4,6 +4,6 @@ These are some of the themes our community has created. If you wish to add your 
 
 | Theme Name | Install |
 | --------------- | --------------- |
-| Batman | [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/TheTrio/MeetDark/raw/main/CommunityThemes/Batman.user.css) |
+| Meet Dark: Darkness | [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://github.com/TheTrio/MeetDark/raw/main/CommunityThemes/Darkness.user.css) |
 
 Note: These community themes have not been checked by me, and might lack several features. They are provided here as a way to give you a starting point to creating your own custom theme.
