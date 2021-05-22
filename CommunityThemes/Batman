@@ -1,0 +1,302 @@
+/* ==UserStyle==
+@name        Meet Dark
+@namespace   github.com/openstyles/stylus
+@version     0.1.5
+@homepageURL https://github.com/TheTrio/MeetDark
+@updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
+@author      Shashwat
+@license MIT
+@var color light-color "Light color" #d3d3d3
+@var color dark-color "Dark color" #181818
+@var color button-color "Secondary color" #00afb9
+@var color dark-light-color "Dark Light color" #212121
+@var color button-not-focus-color "Secondary not focus color" #00b5bf
+@var color text-color "Text color" #219ebc
+==/UserStyle== */
+@-moz-document url-prefix("https://meet.google.com/") {
+    :root {
+        /* --light-color: #d3d3d3;
+        --dark-color: #181818;
+        --button-color: #00afb9;
+        --dark-light-color: #212121;
+        --button-not-focus-color: #00b5bf;
+        --text-color: #219ebc;
+        */
+    }
+
+    .mKBhCf {
+        background-color: var(--dark-color);
+        color: var(--light-color);
+    }
+
+    .ZHdB2e .kaAt2 {
+        background-color: var(--dark-color);
+    }
+
+    .NzPR9b {
+        /*top pane color*/
+        background: var(--dark-light-color);
+    }
+
+    .ZaI3hb,
+    .L7osyb {
+        /*svg and time colors for top pane*/
+        color: var(--button-color);
+    }
+
+    .ADivge {
+        /*hiding user icon for now*/
+        display: none;
+    }
+
+    .YTbUzc {
+        /*username color*/
+        color: var(--light-color);
+    }
+
+    .oIy2qc {
+        /* message color*/
+        color: var(--light-color);
+    }
+
+    .c0XF8e.kaAt2:not(.KKjvXb),
+    .c0XF8e.kaAt2:not(.KKjvXb) .VZhFab {
+        /*navigation buttons on top*/
+        color: var(--light-color);
+    }
+
+    .BC4V9b {
+        /*text box*/
+        background-color: var(--dark-color);
+    }
+
+    .Bx7THd.PBWx0c .ZHdB2e .ZjAUM {
+        /*removing border from navigation buttons*/
+        border-bottom: none;
+    }
+
+    .Z9zn3b.KKjvXb,
+    .diMUPd.KKjvXb,
+    .QgUKcb.KKjvXb,
+    .fcCTod.KKjvXb,
+    .UaWzYc.KKjvXb {
+        /*navigation button colors*/
+        color: var(--button-color);
+    }
+
+    .c0XF8e.kaAt2.KKjvXb,
+    .c0XF8e.kaAt2.KKjvXb .VZhFab {
+        /*navigation button colors*/
+        color: var(--button-color);
+    }
+
+    .ZHdB2e .kaAt2:hover {
+        /*navigation hover colors*/
+        background-color: var(--dark-light-color);
+    }
+    .rG0ybd {
+        /*bottom pane*/
+        background-color: var(--dark-color);
+        color: var(--light-color);
+    }
+
+    .mKNb3d {
+        /*recording button color*/
+        background-color: var(--button-color);
+    }
+
+    .uJNmj.FTMc0c {
+        /*my mute and camera buttons*/
+        background-color: var(--button-color);
+        border: none;
+    }
+
+    .JHK7jb.OGbUle,
+    .JHK7jb.FTMc0c {
+        /*mic icon on users on screen*/
+        background-image: url('https://htmlcolorcodes.com/assets/images/colors/blood-red-color-solid-background-1920x1080.png');
+    }
+
+    .vvTMTb {
+        /*CHATBOX*/
+        background-size: 360px;
+        position: relative;
+    }
+    .vvTMTb::before {
+        background-image: url('https://lh6.googleusercontent.com/proxy/UKA7QkduJmtNcROCPdESUHUZT9gjeYDQX6m7ulW7Ytv1Q3AuCGx3Jq6EPX5G71-KiwLmh4HJB0J6TUN6tDqGh0L2CGb4EkZgh2yQJjtYMoh83S-uZ4XFXiwcZDRQjvmca3VQMTAIWyJ7l4a5VerHjIyMvMQPq3ae7g=s0-d');
+        opacity: .7;
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+
+    .z38b6 {
+        position: relative;
+    }
+
+    .Cs0vCd.RDPZE .e3AdI {
+        /*message box send colors*/
+        color: var(--button-color);
+    }
+
+    .OCZA0d,
+    .XFtqNb,
+    .kHC9yb,
+    .c7fp5b {
+        /*raise hand, turn on cc and background of that button*/
+        color: var(--button-color);
+    }
+    /* useless button colors*/
+    .uD3s5c .FrkLCe {
+        color: var(--button-not-focus-color);
+    }
+
+    .eUyZxf {
+        color: var(--button-not-focus-color);
+    }
+    .CkXZgc {
+        /*meeting name*/
+        color: var(--button-not-focus-color);
+    }
+
+    .sPXonc,
+    .I98jWb,
+    .YhIwSc,
+    .KsCJ0,
+    .SX67K,
+    .giZTad {
+        /*svg text color*/
+         color: var(--button-color);
+    }
+
+    .cU0hbd .K74C9e,
+    .isOLae {
+        /*users colors on the right pane (NOT CHAT BOX)*/
+        color: var(--button-color);
+    }
+
+    .cU0hbd .D0baBe {
+        /*add people icon color*/
+        color: var(--button-color);
+    }
+
+    .ggUFBf,
+    .b5FiD,
+    .Pdo15c,
+    .hWX4r {
+        /*users screen on right*/
+        background-color: var(--dark-color);
+    }
+
+    .GvcuGe .uB7U9e,
+    .GvcuGe .aC0Bke,
+    .mcyM9d {
+        /*right user options (mute and everything)color*/
+        color: var(--button-not-focus-color);
+    }
+
+    .P2Hi5d,
+    .mkMxfe,
+    .OBi8lb,
+    .P9QRxe,
+    .vqjb4e,
+    .y8Rdrf,
+    .DMZ54e,
+    .VfPpkd-StrnGf-rymPhb-L8ivfd-fmcmS {
+        /*polls on the right*/
+        color: var(--light-color);
+    }
+    .Z7iKHc {
+        /*new messages circle color*/
+        color: var(--button-not-focus-color);
+    }
+
+    .XvhY1d {
+        /*PRESENT NOW*/
+        background: var(--dark-light-color);
+    }
+
+    .o9fq9d {
+        color: var(--button-not-focus-color);
+    }
+    .ZiTobc,
+    .z80M1 {
+        color: var(--light-color);
+    }
+
+    .z80M1.FwR7Pc {
+        background: var(--dark-color);
+    }
+
+    .CIYi0d .jO7h3c {
+        /*hamburger text color*/
+        color: var(--light-color);
+    }
+
+    /*########################## meeting left screen ###############################*/
+    .p2ZbV.zKHdkd {
+        background-color: var(--dark-color);
+    }
+
+    .CRFCdf {
+        color: var(--light-color);
+    }
+
+    .nS35F {
+        background-color: var(--button-color);
+    }
+    .S6Idlc {
+        display: none;
+    }
+
+    /*########################## JOIN MEET PAGE ##################################*/
+    .Yi3Cfd,
+    .Jyj1Td,
+    .Ue6DPb,
+    .DLjNp.LlMNQd .Kx3qp {
+        color: var(--text-color);
+    }
+
+    .Y5sE8d {
+        background-color: var(--button-color);
+    }
+
+    .ZYf3qb:not(.RDPZE) .snByac {
+        color: var(--light-color);
+    }
+    .xKiqt.cd29Sd .Fxmcue {
+        background: var(--button-not-focus-color);
+        color: #f30808;
+    }
+    .CpPRrf,
+    .mWzGw {
+        /* removing drop shado effect from screen*/
+        background-image: url('https://cdn.wallpapersafari.com/96/40/Q7jP6V.jpg');
+    }
+
+    .vWXIE {
+        background: #ee2b08;
+    }
+
+    .KshDhe {
+        /*check your audio and video text*/
+        color: var(--button-color)
+    }
+
+    .VfPpkd-XPtOyb-FCjw3e .VfPpkd-XPtOyb-OWXEXe-dgl2Hf {
+        /*check your audio and video border color*/
+        border-color: var(--button-not-focus-color);
+    }
+
+    /* meet chat box your comments to be written label*/
+    .XnKlKd .tL9Q4c {
+        color: var(--light-color);
+    }
+}
