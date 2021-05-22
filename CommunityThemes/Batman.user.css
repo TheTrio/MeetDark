@@ -124,7 +124,7 @@
     }
     .vvTMTb::before {
         background-image: url('https://lh6.googleusercontent.com/proxy/UKA7QkduJmtNcROCPdESUHUZT9gjeYDQX6m7ulW7Ytv1Q3AuCGx3Jq6EPX5G71-KiwLmh4HJB0J6TUN6tDqGh0L2CGb4EkZgh2yQJjtYMoh83S-uZ4XFXiwcZDRQjvmca3VQMTAIWyJ7l4a5VerHjIyMvMQPq3ae7g=s0-d');
-        opacity: .7;
+        opacity: 1;
         content: ' ';
         display: block;
         position: absolute;
