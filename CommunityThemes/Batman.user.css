@@ -1,27 +1,24 @@
 /* ==UserStyle==
-@name        Meet Dark - Batman
+@name        MeetDark: Darkness
 @namespace   github.com/openstyles/stylus
-@version     0.1.5
+@version     0.1.2
 @homepageURL https://github.com/TheTrio/MeetDark
 @updateURL   https://github.com/TheTrio/MeetDark/raw/main/CommunityThemes/Batman.user.css
 @author      Shashwat
 @license MIT
-@var color light-color "Light color" #d3d3d3
-@var color dark-color "Dark color" #181818
-@var color button-color "Secondary color" #00afb9
-@var color dark-light-color "Dark Light color" #212121
-@var color button-not-focus-color "Secondary not focus color" #00b5bf
-@var color text-color "Text color" #219ebc
 ==/UserStyle== */
-@-moz-document url-prefix("https://meet.google.com/") {
+
+@-moz-document url-prefix("https://meet.google.com/")
+{
+     /*        MeetDark: Darkness    
+                                 ~Tushar*/
     :root {
-        /* --light-color: #d3d3d3;
-        --dark-color: #181818;
-        --button-color: #00afb9;
-        --dark-light-color: #212121;
-        --button-not-focus-color: #00b5bf;
-        --text-color: #219ebc;
-        */
+        --light-color: #fff;
+        --dark-color: #040404;
+        --button-color: #dc1111eb;
+        --dark-light-color: #1a1818;
+        --button-not-focus-color: #dc1111eb;
+        --text-color: #54abc2;
     }
 
     .mKBhCf {
@@ -57,6 +54,7 @@
     .oIy2qc {
         /* message color*/
         color: var(--light-color);
+        
     }
 
     .c0XF8e.kaAt2:not(.KKjvXb),
@@ -106,25 +104,26 @@
     }
 
     .uJNmj.FTMc0c {
-        /*my mute and camera buttons*/
+        /*current user mute and camera buttons*/
         background-color: var(--button-color);
         border: none;
     }
 
     .JHK7jb.OGbUle,
     .JHK7jb.FTMc0c {
-        /*mic icon on users on screen*/
-        background-image: url('https://htmlcolorcodes.com/assets/images/colors/blood-red-color-solid-background-1920x1080.png');
+        /*mute user buttons*/
+        background-color: var(--button-color);
     }
 
     .vvTMTb {
-        /*CHATBOX*/
+        /*changing color for when chat is empty*/
+        background-color: var(--dark-color);
         background-size: 360px;
         position: relative;
     }
-    .vvTMTb::before {
-        background-image: url('https://lh6.googleusercontent.com/proxy/UKA7QkduJmtNcROCPdESUHUZT9gjeYDQX6m7ulW7Ytv1Q3AuCGx3Jq6EPX5G71-KiwLmh4HJB0J6TUN6tDqGh0L2CGb4EkZgh2yQJjtYMoh83S-uZ4XFXiwcZDRQjvmca3VQMTAIWyJ7l4a5VerHjIyMvMQPq3ae7g=s0-d');
-        opacity: 1;
+    .vvTMTb::before{
+        background-image:url('https://wallpaperaccess.com/full/757133.jpg');
+        opacity: 0.7;
         content: ' ';
         display: block;
         position: absolute;
@@ -132,28 +131,30 @@
         top: 0;
         width: 100%;
         height: 100%;
+        opacity: 0.6;
         background-repeat: no-repeat;
         background-position: 50% 0;
         background-size: cover;
     }
-
-    .z38b6 {
-        position: relative;
+    
+    .z38b6{
+        position:relative;
     }
 
     .Cs0vCd.RDPZE .e3AdI {
         /*message box send colors*/
         color: var(--button-color);
+        
     }
 
     .OCZA0d,
     .XFtqNb,
     .kHC9yb,
     .c7fp5b {
-        /*raise hand, turn on cc and background of that button*/
+        /*raise hand button*/
         color: var(--button-color);
     }
-    /* useless button colors*/
+
     .uD3s5c .FrkLCe {
         color: var(--button-not-focus-color);
     }
@@ -173,17 +174,17 @@
     .SX67K,
     .giZTad {
         /*svg text color*/
-         color: var(--button-color);
+        color: var(--text-color);
     }
 
     .cU0hbd .K74C9e,
     .isOLae {
         /*users colors on the right pane (NOT CHAT BOX)*/
-        color: var(--button-color);
+        color: #83c5be;
     }
 
     .cU0hbd .D0baBe {
-        /*add people icon color*/
+        /*add people color*/
         color: var(--button-color);
     }
 
@@ -240,9 +241,13 @@
         color: var(--light-color);
     }
 
-    /*########################## meeting left screen ###############################*/
+    /*meeting left screen*/
     .p2ZbV.zKHdkd {
-        background-color: var(--dark-color);
+       background-color: #1a1818;
+        background-image: url('https://64.media.tumblr.com/3da070bda06215179dcc36c4dbe2ce20/tumblr_obik87Q3SV1vwbzq8o6_500.gifv');
+         background-repeat: no-repeat;
+        background-position: 0% 80%;
+        background-size: 100% ;
     }
 
     .CRFCdf {
@@ -256,7 +261,13 @@
         display: none;
     }
 
-    /*########################## JOIN MEET PAGE ##################################*/
+    /*JOIN MEET PAGE*/
+    .Qmt7oc {
+        background-image: url('https://64.media.tumblr.com/cc303417e4c450858a7c2a7ff9107c42/tumblr_nzd5xyi9e11qa70eyo1_540.gifv');
+         background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
     .Yi3Cfd,
     .Jyj1Td,
     .Ue6DPb,
@@ -273,21 +284,25 @@
     }
     .xKiqt.cd29Sd .Fxmcue {
         background: var(--button-not-focus-color);
-        color: #f30808;
+        color: #fff;
     }
     .CpPRrf,
     .mWzGw {
-        /* removing drop shado effect from screen*/
-        background-image: url('https://cdn.wallpapersafari.com/96/40/Q7jP6V.jpg');
+        /* removing drop shado effect from screen
+        background-image: url('https://cdn.wallpapersafari.com/96/40/Q7jP6V.jpg');*/
     }
 
-    .vWXIE {
-        background: #ee2b08;
+   .vWXIE {
+        background-image: url('https://mondrian.mashable.com/wp-content%252Fuploads%252F2015%252F04%252Fbatman.gif%252Ffull-fit-in__950x534.gif?signature=wPDQzC2bpAbucv-PSe72oFSBcKg=&source=http%3A%2F%2Fmashable.com');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
     }
+
 
     .KshDhe {
         /*check your audio and video text*/
-        color: var(--button-color)
+        color: var(--light-color);
     }
 
     .VfPpkd-XPtOyb-FCjw3e .VfPpkd-XPtOyb-OWXEXe-dgl2Hf {
@@ -295,7 +310,7 @@
         border-color: var(--button-not-focus-color);
     }
 
-    /* meet chat box your comments to be written label*/
+    /* meet chat box*/
     .XnKlKd .tL9Q4c {
         color: var(--light-color);
     }
