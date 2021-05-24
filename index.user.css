@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Meet Dark
 @namespace   github.com/openstyles/stylus
-@version     0.1.5
+@version     0.1.6
 @homepageURL https://github.com/TheTrio/MeetDark
 @updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
 @author      Shashwat
@@ -17,7 +17,7 @@
 @-moz-document url-prefix("https://meet.google.com/")
 {
     :root {
-       /* --light-color: #d3d3d3;
+        /* --light-color: #d3d3d3;
         --dark-color: #181818;
         --button-color: #00afb9;
         --dark-light-color: #212121;
@@ -281,5 +281,62 @@
     /* meet chat box*/
     .XnKlKd .tL9Q4c {
         color: var(--light-color);
+    }
+
+    /* Settings Page*/
+    .F1dYic {
+        background: var(--dark-color);
+        color: var(--light-color);
+    }
+
+    .K4VHc,
+    .E5aed {
+        color: var(--button-color);
+    }
+    .MocG8c {
+        color: var(--light-color);
+    }
+    .e2CuFe {
+        border-color: var(--button-color) transparent;
+    }
+    .NVUqMb,
+    .clMRcc {
+        background-color: var(--button-color);
+    }
+
+    .OxCgzb .ktANpb .RveJvd.snByac {
+        color: var(--text-color);
+    }
+
+    .Hdh4hc.cIGbvc.NMm5M {
+        fill: var(--button-color);
+    }
+
+    .ncFHed {
+        background: var(--dark-light-color);
+    }
+
+    .ncFHed .MocG8c.KKjvXb {
+        background-color: var(--gm-body-text-color);
+    }
+
+    .hZ3uGe.eP0LCc.KKjvXb:not(:disabled) {
+        background-color: var(--button-not-focus-color);
+        color: black;
+    }
+    .hZ3uGe:not(:disabled) .VfPpkd-kBDsod,
+    .hZ3uGe:not(:disabled) {
+        color: var(--light-color);
+    }
+
+    .qs41qe .jO7h3c {
+        color: var(--dark-color) !important;
+    }
+
+    .LjDxcd:hover:not(:disabled),
+    .LjDxcd:active:not(:disabled),
+    .LjDxcd:not(.UMrnmb-AHmuwe-L6cTce):focus:not(:disabled),
+    .LjDxcd.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe:not(:disabled) {
+        color: #ccc;
     }
 }
