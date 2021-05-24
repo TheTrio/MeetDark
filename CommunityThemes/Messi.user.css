@@ -1,23 +1,29 @@
 /* ==UserStyle==
-@name        MeetDark: Messi
+@name        Meet Dark Messi
 @namespace   github.com/openstyles/stylus
-@version     0.1.2
+@version     0.1.5
 @homepageURL https://github.com/TheTrio/MeetDark
-@updateURL   https://github.com/TheTrio/MeetDark/raw/main/CommunityThemes/Batman.user.css
-@author      Shashwat
+@updateURL   https://github.com/TheTrio/MeetDark/raw/main/index.user.css
+@author      Shamshet
 @license MIT
+@var color light-color "Light color" #d3d3d3
+@var color dark-color "Dark color" #181818
+@var color button-color "Secondary color" #00afb9
+@var color dark-light-color "Dark Light color" #212121
+@var color button-not-focus-color "Secondary not focus color" #00b5bf
+@var color text-color "Text color" #219ebc
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://meet.google.com/")
 {
     :root {
-        /* --light-color: #d3d3d3;
-     --dark-color: #181818;
-     --button-color: #00afb9;
-     --dark-light-color: #212121;
-     --button-not-focus-color: #00b5bf;
-     --text-color: #219ebc;
-     */
+       /* --light-color: #d3d3d3;
+        --dark-color: #181818;
+        --button-color: #00afb9;
+        --dark-light-color: #212121;
+        --button-not-focus-color: #00b5bf;
+        --text-color: #219ebc;
+        */
     }
 
     .mKBhCf {
@@ -53,6 +59,7 @@
     .oIy2qc {
         /* message color*/
         color: var(--light-color);
+        
     }
 
     .c0XF8e.kaAt2:not(.KKjvXb),
@@ -119,8 +126,8 @@
         background-size: 360px;
         position: relative;
     }
-    .vvTMTb::before {
-        background-image: url('https://assets.wallpapersin4k.org/uploads/2017/04/Lionel-Messi-Mobile-Wallpapers-21.jpg');
+    .vvTMTb::before{
+        background-image:url('https://assets.wallpapersin4k.org/uploads/2017/04/Lionel-Messi-Mobile-Wallpapers-21.jpg');
         opacity: 0.4;
         content: ' ';
         display: block;
@@ -133,14 +140,15 @@
         background-position: 50% 0;
         background-size: cover;
     }
-
-    .z38b6 {
-        position: relative;
+    
+    .z38b6{
+        position:relative;
     }
 
     .Cs0vCd.RDPZE .e3AdI {
         /*message box send colors*/
         color: var(--button-color);
+        
     }
 
     .OCZA0d,
@@ -275,7 +283,16 @@
     .CpPRrf,
     .mWzGw {
         /* removing drop shado effect from screen*/
-        background-image: none;
+        background-image: url('https://media.giphy.com/media/ViZylgfPSfJFm/giphy.gif');
+        background-repeat: no-repeat;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-position: 50% 0;
+        background-size: cover;
     }
 
     .vWXIE {
@@ -297,3 +314,4 @@
         color: var(--light-color);
     }
 }
+
