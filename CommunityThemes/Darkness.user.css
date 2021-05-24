@@ -15,9 +15,9 @@
     :root {
         --light-color: #fff;
         --dark-color: #040404;
-        --button-color: #c40808eb;
+        --button-color: #dc1111eb;
         --dark-light-color: #1a1818;
-        --button-not-focus-color: #c40808eb;
+        --button-not-focus-color: #dc1111eb;
         --text-color: #54abc2;
     }
 
@@ -123,7 +123,7 @@
     }
     .vvTMTb::before{
         background-image:url('https://wallpaperaccess.com/full/757133.jpg');
-        opacity: 0.5;
+        opacity: 0.7;
         content: ' ';
         display: block;
         position: absolute;
@@ -243,7 +243,11 @@
 
     /*meeting left screen*/
     .p2ZbV.zKHdkd {
-        background-color: var(--dark-color);
+       background-color: #1a1818;
+        background-image: url('https://64.media.tumblr.com/3da070bda06215179dcc36c4dbe2ce20/tumblr_obik87Q3SV1vwbzq8o6_500.gifv');
+         background-repeat: no-repeat;
+        background-position: 0% 80%;
+        background-size: 100% ;
     }
 
     .CRFCdf {
@@ -258,6 +262,12 @@
     }
 
     /*JOIN MEET PAGE*/
+    .Qmt7oc {
+        background-image: url('https://64.media.tumblr.com/cc303417e4c450858a7c2a7ff9107c42/tumblr_nzd5xyi9e11qa70eyo1_540.gifv');
+         background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
     .Yi3Cfd,
     .Jyj1Td,
     .Ue6DPb,
@@ -278,13 +288,17 @@
     }
     .CpPRrf,
     .mWzGw {
-        /* removing drop shado effect from screen*/
-        background-image: none;
+        /* removing drop shado effect from screen
+        background-image: url('https://cdn.wallpapersafari.com/96/40/Q7jP6V.jpg');*/
     }
 
-    .vWXIE {
-        background: #2e2e2f;
+   .vWXIE {
+        background-image: url('https://mondrian.mashable.com/wp-content%252Fuploads%252F2015%252F04%252Fbatman.gif%252Ffull-fit-in__950x534.gif?signature=wPDQzC2bpAbucv-PSe72oFSBcKg=&source=http%3A%2F%2Fmashable.com');
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
     }
+
 
     .KshDhe {
         /*check your audio and video text*/
