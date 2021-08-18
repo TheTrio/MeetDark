@@ -4,7 +4,7 @@
 
 An easy on the eyes dark theme for Google Meet
 
-Note: This theme works with the legacy version of Google Meet. An update is in the works.
+Note: The new google meet interface has dark theme support. Unless you're limited to using the old version of meet, we suggest you do not use this theme. 
 
 ![Image](meet.png)
 
